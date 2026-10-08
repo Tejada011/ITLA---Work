@@ -91,10 +91,7 @@ while (seguirEjecutando)
         Console.WriteLine($"Error: Ingrese un numero valido.");
         
     }
-    catch (DivideByZeroException)
-    {
-        Console.WriteLine("Error: No se puede dividir entre cero.");
-    }
+    
     catch (Exception)
     {
         Console.WriteLine("Error: Ocurrio un error inesperado.");
